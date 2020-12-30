@@ -1,0 +1,466 @@
+.fast-animation{
+  animation: appearIn 1s;
+}
+
+.primary-animation{
+  animation: appearIn 2s;
+}
+
+.secondary-animation{
+  animation: appearIn 3s;
+}
+
+.tertiary-animation{
+  animation: appearIn 7s;
+}
+
+
+@keyframes appearIn{
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  /*default values*/
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+
+.container{
+  z-index: 100;
+}
+
+div.home-wallpaper{
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  background-image: url('/img/bg4.jpg')
+}
+
+div.project-wallpaper{
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+  background-color: #111010;
+  /*background-image: url('/img/bg5.jpg')*/
+}
+
+
+div.blog-wallpaper{
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  background-image: url('/img/image1.jpg')
+}
+
+
+div.about-wallpaper{
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  background-image: url('/img/bg6.jpg')
+}
+
+div.contact-wallpaper{
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    background-image: url('/img/bg6.jpg')
+}
+
+/*div {
+  border: 1px solid rgb(252, 198, 3);
+}*/
+
+.font-varela{
+  font-family: "Varela Round", serif;
+  color: white;
+}
+
+p span {
+  display: block;
+}
+
+.project-container {
+  border: 2px solid #202020;
+  top: 200px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+.project-title {
+  font-family: "Varela Round", serif;
+  font-style: bold;
+  font-size: 66px;
+  color: orange;
+
+  /*border: 1px solid rgb(252, 198, 3); */
+  background-color: transparent;
+  margin-top: 4%;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  height: 250px;
+  text-align: center;
+}
+
+.project-title-content {
+  font-family: 'Rubik', serif;
+  font-style: bold;
+  font-size: 24px;
+  color: white;
+}
+
+.projects {
+  color: #bfbfbf;
+  /*border: 2px solid white; */
+  background-color: transparent;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  height: 250px;
+  text-align: center;
+}
+
+.no-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+
+/* styling and effects for navbar buttons */
+.buttons {
+  /*border: 1px solid rgb(252, 198, 3) */
+  background-color: #343A40;
+  border: none;
+  border-radius: 5px;
+  color: #E6E6E6;
+  margin: 2px;
+  padding: 10px 10px;
+}
+
+.buttons:hover{
+  background-color: #bfbfbf;
+  color: #0d0d0d;
+}
+
+
+/* styling for links' color, and hover effects */
+a {
+  color: #bfbfbf;
+}
+
+a:hover {
+  color: #bfbfbf;
+  text-decoration: underline;
+}
+
+
+.center-div {
+  width: 100%;
+  text-align: center;
+}
+
+#time-line-header{
+  color: orange;
+  margin-top: 15px;
+  font-family: "Varela Round", serif;
+}
+
+/* below are sizing and position for divs that hold other elements from the site */
+.time-line-div {
+  border: 1px solid #bfbfbf;
+  margin-top: 3%;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  height: 65%;
+  top: 150px;
+  overflow-y: scroll;
+  position: absolute;
+  background-color: #0d0d0d;
+  color: orange;
+}
+
+.home_buttons {
+  color: #bfbfbf;
+  /*border: 1px solid rgb(252, 198, 3); */
+  background-color: transparent;
+  top: 100px;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  height: 250px;
+  text-align: center;
+}
+
+.jumbotron {
+  /*width: 800px;*/
+  background-color: transparent;
+  margin-top: 10%;
+  width: 100%;
+  background-size: cover;
+  background-position: top center;
+  height: auto;
+}
+
+.card {
+  background-color: black;
+  color: orange;
+}
+
+.card, .card-img-top{
+  border-radius: 10px;
+}
+
+.card-text{
+  color: #808080;
+}
+
+.container {
+  text-align: center
+}
+
+
+
+.navbar-background {
+  background-color: black;
+}
+
+ /*center navbar buttons*/
+.center {
+  margin: auto;
+}
+
+
+.test {
+    font-size: 6px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 200px) {
+    .jumbotron h1 {
+        font-size: 1em;
+        color: #E6E6E6;
+    }
+    .test {
+        font-size: 1em;
+        color: white;
+    }
+}
+
+@media (min-width: 400px) {
+    .jumbotron h1 {
+        font-size: 1em;
+        color: #E6E6E6;
+    }
+    .test {
+        font-size: 1em;
+        color: white;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 600px) {
+    .jumbotron h1 {
+        font-size: 2em;
+        color: #E6E6E6;
+    }
+    .test {
+        font-size: 1em;
+        color: white;
+    }
+}
+
+@media (min-width: 800px) {
+    .jumbotron h1 {
+        font-size: 3em;
+        color: #E6E6E6;
+    }
+    .test {
+        font-size: 1em;
+        color: white;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .jumbotron h1 {
+        font-size: 6em;
+        color: #E6E6E6;
+    }
+    .test {
+        font-size: 1em;
+        color: white;
+    }
+}
+
+
+
+/* changing the default bullet image that comes with li tags to a custom sword image */
+li.sword { 
+  list-style-image: url('/img/W_Sword006.png'); 
+  margin-left: 75px;
+}
+
+li.killingit { 
+  list-style-image: url('/img/killingit.png'); 
+  margin-left: 32px;
+
+}
+
+
+.example1{
+  border: 5px solid rgb(252, 198, 3); 
+  margin-top: 20%;
+  width: 50%;
+  top: 50%;
+}
+
+
+/* https://stackoverflow.com/questions/4373046/css-control-space-between-bullet-and-li */
+li span {
+  position: relative;
+  left: -20px;
+  top: -12px;
+}
+
+/* positioning the unordered HTML list items */
+.entries {
+  margin-top: 40px;
+  width: 90%;
+  margin-bottom: 40px;
+  left:5%;
+  position: relative;
+  font-family: "Varela Round", serif;
+  color: #808080;
+}
+
+/* this div holds the link buttons in the bottom of the front page */
+/* the div is made centered to allow the links to be in the center */
+div.home-div {
+  color: #bfbfbf;
+  border: 1px solid rgb(252, 198, 3); 
+  background-color:transparent;
+  top: 600px;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  height: 100px;
+  text-align: center;
+}
+
+
+h2.about-title {
+  margin: auto;
+  width: 50%;
+  /*border: 1px solid green;*/
+  padding: 10px;
+  margin-top: 4%;
+  color: orange;
+  text-align: center;
+  font-family: "Varela Round", serif;
+}
+
+
+
+div.about {
+  margin: auto;
+  width: 50%;
+  border: 1px solid #202020;
+  padding: 10px;
+  margin-top: 1%;
+  color: #C0C0C0;
+  font-family: "Varela Round", serif;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+}
+
+
+
+.contact{
+  margin: auto;
+  width: 50%;
+  /*border: 1px solid green;*/
+  padding: 10px;
+  margin-top: 10%;
+  color: orange;
+  text-align: center;
+  font-family: "Varela Round", serif;
+}
+
+
+.profile-picture{
+  float: left;
+  padding-right: 10px;
+
+
+}
+
+.profile-description{
+  float:right;
+}
+
+
+a, u, img {
+  text-decoration: none !important;
+}
+
+p.ex1 {
+  color: white;
+  text-align: left;
+  display: inline
+}
+
+p.ex2 {
+  color: #C0C0C0;
+  text-align: left;
+  /*font-family: "Source Code Pro", serif;*/
+  font-size: 12px;
+
+

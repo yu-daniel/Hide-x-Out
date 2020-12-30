@@ -1,0 +1,28 @@
+{
+  "name": "daniel.com",
+  "version": "1.0.0",
+  "description": "daniel's website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Daniel Yu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "forever": "^3.0.0",
+    "lightbox2": "^2.11.3",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yu-daniel/PoE-Fansite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yu-daniel/PoE-Fansite/issues"
+  },
+  "homepage": "https://github.com/yu-daniel/PoE-Fansite#readme",
+  "devDependencies": {}
+}
